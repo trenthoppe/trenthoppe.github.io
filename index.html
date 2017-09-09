@@ -1,20 +1,175 @@
-
+<!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trent Hoppe</title>
-  </head>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+</head>
 
-  <body>
-    <div class="container">
-      <img class="profile" src="assets/TrentHoppeHeadshot.jpg">
-      <div class="middle">
-        <div class="quote-main">"I am bad at web design."</div>
-        <div class="quote-signature">-Trent Hoppe</div>
-      </div>
-    <div>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#"><span class="text-title" style="font-size:30px;">trent Hoppe</span></a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="#">Home </a></li>
+                        <li role="presentation"><a href="#interests">Interests </a></li>
+                        <li role="presentation"><a href="#contact">Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <ul class="nav nav-pills categories" id="interests">
+    <li><a href="#news">News </a></li>
+    <li><a href="#books">Books </a></li>
+    <li><a href="#talks">Talks </a></li>
+</ul>
+    <div class="article-list">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" id="news">Article of the...</h2>
+            </div>
+            <div class="row articles">
+                <div class="col-md-4 col-sm-6 item">
+                    <h3>Day </h3>
+                    <a href="https://futurism.com/los-angeles-is-painting-its-streets-to-combat-climate-change/"><img class="img-responsive" src="assets/img/Articles/AOTM_08092017.jpg"></a>
+                    <h3 class="name">Los Angeles is Painting its Streets to Combat Climate Change </h3>
+                    <p class="description">Los Angeles is coating its streets with a special paint that will reduce the temperature of the city. It's the latest step the city has taken to combat the effects of climate change alongside the state's plans.</p><a href="https://futurism.com/los-angeles-is-painting-its-streets-to-combat-climate-change/"
+                    class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
+                <div class="col-md-4 col-sm-6 item">
+                    <h3>Week </h3>
+                    <a href="https://www.recode.net/2017/9/8/16272498/snapchat-discover-college-newspapers-news"><img class="img-responsive" src="assets/img/Articles/AOTW_09082017.jpg" style="background-color:#372d2d;"></a>
+                    <h3 class="name">Snapchat wants to get deeper into news, so it’s adding college newspapers to Discover </h3>
+                    <p class="description">Student papers from Berkeley, Texas A&amp;M, Wisconsin and Syracuse are coming to Snapchat. </p><a href="https://www.recode.net/2017/9/8/16272498/snapchat-discover-college-newspapers-news" class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
+                <div
+                class="col-md-4 col-sm-6 item">
+                    <h3>Month </h3>
+                    <a href="https://www.technologyreview.com/s/608777/why-googles-ai-can-write-beautiful-songs-but-still-cant-tell-a-joke/"><img class="img-responsive" src="assets/img/Articles/AOTD_08092017.jpg"></a>
+                    <h3 class="name">Why Google's AI Can Write Beautiful Songs, but Still Can't Tell a Joke</h3>
+                    <p class="description">Douglas Eck of Google’s Magenta project talks about how machine learning can help artists make professional-sounding (if meandering) music. </p><a href="https://www.technologyreview.com/s/608777/why-googles-ai-can-write-beautiful-songs-but-still-cant-tell-a-joke/"
+                    class="action"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></div>
+        </div>
+    </div>
+    </div>
+    <div class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" id="books">Good Reads</h2>
+                <p class="text-center">Check out these books! If you don't like them, lie to me.</p>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="https://www.amazon.com/Rise-Robots-Technology-Threat-Jobless/dp/0465097537"><img class="img-responsive" src="assets/img/Books/Book_RiseOfTheRobots.jpg"></a>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="name">Rise of the Robots</h3>
+                            <p class="description">What does the technological revolution mean for the job market? We may be quickly approaching a disruptive economic threshold that will either introduce widespread prosperity or gruesome levels of inequality. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="https://www.amazon.com/Power-Habit-What-Life-Business-ebook/dp/B0055PGUYU"><img class="img-responsive" src="assets/img/Books/Book_ThePowerOfHabit.jpeg"></a>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="name">The Power of Habit</h3>
+                            <p class="description">The art to mastery of any skill or body of knowledge is consistency and repetition. Learn about the cognitive science behind habit formation and the power it can have to affect positive change in your everyday life.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="https://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447"><img class="img-responsive" src="assets/img/Books/Book_StartWithWhy.jpg"></a>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="name">Start With Why</h3>
+                            <p class="description">What separates truly inspiring, innovative companies and teams from their status quo counterparts? Perhaps it is by communicating their 'why' to the world before focusing on what they are doing or how they are going to do it.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <a href="https://www.amazon.com/Dreaming-Code-Programmers-Transcendent-Software/dp/1400082471"><img class="img-responsive" src="assets/img/Books/Book_DreamingInCode.jpg"></a>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="name">Dreaming In Code</h3>
+                            <p class="description">A must read for software developers. Dreaming in Code dives into why a paradigm for creating software still remains a subject for constant debate. What is it about the nature of software that makes scalable, robust projects
+                                so hard to execute on?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" id="talks">Talks I Love</h2>
+                <p class="text-center">Give them a listen and bond with me over them next time we talk</p>
+            </div>
+        </div>
+    </div>
+    <div class="simple-slider">
+        <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="text-align: center;">
+            <iframe src="https://embed.ted.com/talks/noriko_arai_can_a_robot_pass_a_university_entrance_exam" width="854px" height="480px" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div class="swiper-slide" style="text-align: center;">
+            <iframe src="https://embed.ted.com/talks/garry_kasparov_don_t_fear_intelligent_machines_work_with_them" width="854px" height="480px" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div class="swiper-slide" style="text-align: center;">
+            <iframe class="iframe" src="https://embed.ted.com/talks/ken_robinson_says_schools_kill_creativity" width="854px" height="480px" align="middle" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
 
-  </body>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <h2 id="contact" style="color:rgb(255,255,255);">Let&#39;s Get In Touch</h2><img class="img-circle" src="assets/img/TrentHoppeHeadshot.jpg" style="height:200px;width:200px;">
+            <p style="font-size:25px;margin:-3px;"> <i class="icon ion-ios-telephone" style="color:rgb(255,255,255);"></i> (402)-616-0070 </p>
+            <p style="font-size:25px;"> <i class="icon ion-email"></i> hoppetrent06@gmail.com</p>
+            <div class="social"><a href="https://www.linkedin.com/in/trent-hoppe/"><i class="icon ion-social-linkedin"></i></a><a href="https://www.facebook.com/profile.php?id=100009461456633"><i class="icon ion-social-facebook" style="color:rgb(255,255,255);"></i></a>
+                <a
+                href="https://www.instagram.com/trent_hoppe06/?hl=en"><i class="icon ion-social-instagram"></i></a><a href="https://github.com/trenthoppe"><i class="icon ion-social-github"></i></a></div>
+            <ul class="list-inline">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Interests </a></li>
+                <li>
+                    <a href="#">Resume </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+</body>
 
 </html>
