@@ -1,6 +1,7 @@
 var canvas;
 var sponge = [];
 var a = 0;
+var level = 1;
 
 function setup() {
   // Initialize 3D canvas
@@ -26,11 +27,14 @@ function draw() {
 }
 
 function mousePressed() {
-  var next = [];
-  for(var i = 0; i < sponge.length; i++) {
-    var b = sponge[i];
-    var bNext = b.generate();
-    next = next.concat(bNext);
+  if(level <= 3) {
+    level++;
+    var next = [];
+    for(var i = 0; i < sponge.length; i++) {
+      var b = sponge[i];
+      var bNext = b.generate();
+      next = next.concat(bNext);
+    }
+    sponge = next;
   }
-  sponge = next;
 }
