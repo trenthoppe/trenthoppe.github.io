@@ -157,8 +157,8 @@ function showPassion(which) {
     fill(51);
     text("Technology", 200, 85);
     textSize(20);
-    text('There is a reason I wrote this game instead of doing', 60, 140);
-    text("something else. I sincerely think it's really fun! I'd ", 60, 165);
+    text('The reason I wrote this game instead of doing something', 60, 140);
+    text("else is becauase I sincerely think it's really fun! I'd ", 60, 165);
     text('rather code for an extra 5 hours than write another essay.', 60, 190);
     text('', 60, 225)
     text('Here are the three reasons I chose Computer Science:', 60, 260);
@@ -203,7 +203,7 @@ function showPassion(which) {
     text('2006 - realized I was bad at every other sport', 60, 245);
     text('2011 - playing at the regional level / varsity soccer', 60, 275);
     text('2014 - lost in state cup championship (still hurts)', 60, 305);
-    text('2017 - washed up now; just playing with PIKE now', 60, 335);
+    text('2017 - washed up; just playing with PIKE now', 60, 335);
     text('2020 - assistant coaching a club team', 60, 365);
     text('2022 - coaching a club team of my own', 60, 395);
     text('2027 - our team wins state!', 60, 425)
@@ -278,7 +278,7 @@ function showPassion(which) {
     text('Scott (dad): This guy is the most loyal person you will ever', 60, 230);
     text('meet. He loves wine, Ed Sheeran, and chest day.', 60, 255);
     text('Megan (sis): Honest to a fault, but extremely sincere. Skills', 60, 300);
-    text('include: puzzling; eating Papa Johns and quoting Disney.', 60, 325);
+    text('include: puzzling, eating Papa Johns, and quoting Disney.', 60, 325);
     text('Cole (bro): Always pulls out the best qualities in others (total', 60, 380);
     text('sweetheart). He is the family pretty boy and soccer star.', 60, 405);
     textSize(32);
