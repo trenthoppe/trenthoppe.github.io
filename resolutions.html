@@ -1,0 +1,135 @@
+<html>
+<title>New Years Resolutions</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/resolutions.css">
+
+<head>
+  <script src="./projects/lib/Chart.bundle.js"></script>
+  <script src="./projects/Resolutions/fitness.js"></script>
+  <script src="./projects/Resolutions/intellectual.js"></script>
+  <script src="./projects/Resolutions/deepenRelationships.js"></script>
+  <script src="./projects/Resolutions/resolutions.js"></script>
+</head>
+
+<body>
+  <div class="w3-content w3-container w3-padding-64" id="fitness">
+    <h3 class="w3-center">FITNESS</h3>
+    <p class="w3-center">Goal: Weigh 168lbs with less than 10% body fat by the end of the year</p>
+    <div class="w3-content w3-container">
+      <div class="chart-container" style="position: relative; height:50%; width:100%">
+        <canvas id="weightChart"></canvas>
+      </div>
+      <div class="w3-row w3-padding-64">
+        <div class="w3-half chart-container" style="position: relative; height:50%; width:50%">
+          <canvas id="gymAttendanceChart"></canvas>
+        </div>
+        <div class="w3-half chart-container" style="position: relative; height:50%; width:50%">
+          <canvas id="maxChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="fitness">
+    <h3 class="w3-center">INTELLECTUAL</h3>
+    <p class="w3-center">Goal: Become proficient in Italian (i.e. 100% on Duolingo; able to read Italian news)</p>
+    <div class="w3-content w3w3-container">
+      <div class="chart-container" style="position: relative; height:50%; width:100%">
+        <canvas id="duolingoChart"></canvas>
+      </div>
+      <div class="chart-container w3-padding-64" style="position: relative; height:50%; width:100%">
+        <canvas id="italianPracticeChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="fitness">
+    <h3 class="w3-center">DEEPEN CULTURE</h3>
+    <p class="w3-center">Goal: Listen to a new album every week</p>
+    <p class="w3-wide"><i class="fa fa-music"></i>Albums</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-green w3-center" style="width:12%">6</div>
+    </div>
+    <div class="w3-padding-32"></div>
+    <div class="w3-row-padding w3-center w3-padding-24">
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://open.spotify.com/album/2zbTrm2pIAErzFSopinkbN">
+            <img src="./assets/img/Albums/Cleopatra.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Cleopatra</h4>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://open.spotify.com/album/4fe1YmssM6Ugs6UyA7OdGg">
+            <img src="./assets/img/Albums/WhatIfNothing.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>What If Nothing</h4>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://open.spotify.com/album/55LUvkPPMUgwQVmypS3Wex">
+            <img src="./assets/img/Albums/JustTheBeginning.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Just The Beginning</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding w3-center">
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://open.spotify.com/album/1Fexc96V24RL17Ko9VXUOM">
+            <img src="./assets/img/Albums/TwentyOnePilots.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Twenty One Pilots</h4>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://open.spotify.com/album/5U5rt98q8Jqx4lP3RdqYfO">
+            <img src="./assets/img/Albums/Badlands.png" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>BADLANDS</h4>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://open.spotify.com/album/17l7MIu0Jh0tdgK7or9ovw">
+            <img src="./assets/img/Albums/Dopamine.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Dopamine</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="fitness">
+    <h3 class="w3-center">DEEPEN RELATIONSHIPS</h3>
+    <p class="w3-center">Goal: Stay in touch with family; call a cousin once a month</p>
+    <div class="w3-content w3w3-container">
+      <div class="chart-container" style="position: relative; height:50%; width:100%">
+        <canvas id="familyCallChart"></canvas>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
