@@ -17,7 +17,7 @@ window.onload = function() {
   intellectual.initItalianPracticeChart(italianPracticeCtx);
 
   /* DEEPEN RELATIOSHIPS */
-  var deepenRelationships = new DeepenRelationships();
+  var deepenRelationships = new StrengthenRelationships();
   var familyCallCtx = document.getElementById("familyCallChart");
   deepenRelationships.initFamilyCallChart(familyCallCtx);
 }

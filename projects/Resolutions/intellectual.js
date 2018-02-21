@@ -16,6 +16,9 @@ function Intellectual() {
                 ],
                 borderWidth: 1
             }]
+        },
+        options: {
+          maintainAspectRatio: false
         }
       });
   }

@@ -1,4 +1,4 @@
-function DeepenRelationships() {
+function StrengthenRelationships() {
 
   this.initFamilyCallChart = function(ctx) {
     var myChart = new Chart(ctx, {

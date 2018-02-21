@@ -10,18 +10,20 @@ function Fitness() {
             datasets: [{
                 label: 'Body Weight',
                 data: [160, 159, 158, 158, 158],
-                backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                ],
-                borderColor: [
-                    'rgba(255,99,132,1)',
-                ],
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgba(255,99,132,1)',
                 borderWidth: 1
             }]
         },
         options: {
           responsive: true,
           maintainAspectRatio: false,
+          tooltips: {
+					  mode: 'index',
+				  },
+          hover: {
+					  mode: 'index'
+				  },
           scales: {
             yAxes: [{
                 ticks: {
