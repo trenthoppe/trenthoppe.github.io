@@ -6,10 +6,10 @@ function Fitness() {
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5"],
+            labels: ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8", "Week 9", "Week 10", "Week 11", "Week 12", "Week 13"],
             datasets: [{
                 label: 'Body Weight',
-                data: [160, 159, 158, 158, 158],
+                data: [160, 159, 158, 158, 158, 157, 158.8, 156.5, 157, 158, 159.5, 159, 158.5],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 borderWidth: 1
@@ -39,15 +39,34 @@ function Fitness() {
     var myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ["January"],
             datasets: [{
-                label: 'Visited Gym (% Days)',
+                label: 'January',
                 data: [55],
                 backgroundColor: [
                     'rgba(145, 30, 180, 0.2)',
                 ],
                 borderColor: [
-                    'rgba(145, 30, 180,1)',
+                    'rgba(145, 30, 180, 1)',
+                ],
+                borderWidth: 1
+            }, {
+                label: 'February',
+                data: [42],
+                backgroundColor: [
+                    'rgba(0, 0, 255, 0.2)',
+                ],
+                borderColor: [
+                    'rgba(0, 0, 255, 1)',
+                ],
+                borderWidth: 1
+            },{
+                label: 'March',
+                data: [43.3],
+                backgroundColor: [
+                    'rgba(0, 255, 0, 0.2)',
+                ],
+                borderColor: [
+                    'rgba(0, 255, 0, 1)',
                 ],
                 borderWidth: 1
             }]
@@ -55,6 +74,10 @@ function Fitness() {
         options: {
           responsive: true,
           maintainAspectRatio: false,
+          title: {
+            display: true,
+            text: 'Visited Gym (% days)'
+          },
           scales: {
             yAxes: [{
                 ticks: {
@@ -70,34 +93,34 @@ function Fitness() {
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ["January", "February"],
+            labels: ['January', 'February', 'March'],
             datasets: [{
                 label: 'Hang Clean',
-                data: [145, 150],
+                data: [145, 150, 152.5],
                 backgroundColor: 'rgba(102, 102, 155, 0.2)',
                 borderColor: 'rgba(102,102,255,1)',
                 borderWidth: 2
             },{
                 label: 'Bench',
-                data: [180, 185],
+                data: [180, 185, 190],
                 backgroundColor: 'rgba(255,165,0, 0.2)',
                 borderColor: 'rgba(255,165,0,1)',
                 borderWidth: 2
             },{
                 label: 'Pull Up',
-                data: [195, 200],
+                data: [195, 200, 200],
                 backgroundColor:'rgba(0,0,255, 0.2)',
                 borderColor: 'rgba(0,0,255,1)',
                 borderWidth: 2
             },{
                 label: 'Squat',
-                data: [225, 235],
+                data: [225, 235, 240],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 borderWidth: 2
             },{
                 label: 'Deadlift',
-                data: [250, 265],
+                data: [250, 265, 270],
                 backgroundColor:'rgba(0,255,255, 0.2)',
                 borderColor: 'rgba(0,255,255,1)',
                 borderWidth: 2
