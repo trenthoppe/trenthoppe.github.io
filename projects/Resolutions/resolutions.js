@@ -13,6 +13,8 @@ window.onload = function() {
   var intellectual = new Intellectual();
   var duolingoCtx = document.getElementById("duolingoChart");
   intellectual.initDuolingoChart(duolingoCtx);
+  var expCrownCtx = document.getElementById("expCrownChart");
+  intellectual.initExpCrownChart(expCrownCtx);
   var italianPracticeCtx = document.getElementById("italianPracticeChart");
   intellectual.initItalianPracticeChart(italianPracticeCtx);
 

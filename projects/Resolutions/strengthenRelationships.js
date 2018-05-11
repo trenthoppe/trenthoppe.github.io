@@ -34,6 +34,16 @@ function StrengthenRelationships() {
                     'rgba(0, 255, 0, 1)',
                 ],
                 borderWidth: 1
+            }, {
+                label: 'April',
+                data: [87],
+                backgroundColor: [
+                    'rgba(255,165,0, .2)',
+                ],
+                borderColor: [
+                    'rgba(255,165,0)',
+                ],
+                borderWidth: 1
             }]
         },
         options: {
