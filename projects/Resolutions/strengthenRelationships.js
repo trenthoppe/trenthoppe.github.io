@@ -44,6 +44,36 @@ function StrengthenRelationships() {
                     'rgba(255,165,0)',
                 ],
                 borderWidth: 1
+            },{
+                label: 'May',
+                data: [95],
+                backgroundColor: [
+                    'rgba(255,0,0, .2)',
+                ],
+                borderColor: [
+                    'rgba(255,0,0)',
+                ],
+                borderWidth: 1
+            },{
+                label: 'June',
+                data: [99],
+                backgroundColor: [
+                    'rgba(189,183,107, .2)',
+                ],
+                borderColor: [
+                    'rgba(189,183,107)',
+                ],
+                borderWidth: 1
+            },{
+                label: 'July',
+                data: [99],
+                backgroundColor: [
+                    'rgba(64,224,208, .2)',
+                ],
+                borderColor: [
+                    'rgba(64,224,208)',
+                ],
+                borderWidth: 1
             }]
         },
         options: {
