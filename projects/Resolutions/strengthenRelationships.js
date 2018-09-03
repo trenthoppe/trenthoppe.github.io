@@ -74,6 +74,16 @@ function StrengthenRelationships() {
                     'rgba(64,224,208)',
                 ],
                 borderWidth: 1
+            },{
+                label: 'July',
+                data: [97],
+                backgroundColor: [
+                    'rgba(199, 21, 133, .2)',
+                ],
+                borderColor: [
+                    'rgba(199, 21, 133)',
+                ],
+                borderWidth: 1
             }]
         },
         options: {

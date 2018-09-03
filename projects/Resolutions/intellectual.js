@@ -32,10 +32,10 @@ function Intellectual() {
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ['April', 'May', 'June'],
+            labels: ['April', 'May', 'June', 'July', 'August'],
             datasets: [{
                 label: 'Experience',
-                data: [5500, 7200, 9565, 11285],
+                data: [5500, 7200, 9565, 11285, 12385],
                 yAxisID: 'Exp',
                 backgroundColor: 'rgba(102, 102, 155, 0.2)',
                 borderColor: 'rgba(102,102,255,1)',
@@ -43,7 +43,7 @@ function Intellectual() {
                 borderWidth: 3
             },{
                 label: 'Crowns',
-                data: [53, 72, 89, 94],
+                data: [53, 72, 89, 94, 102],
                 yAxisID: 'Crown',
                 backgroundColor: 'rgba(255,165,0, 0.2)',
                 borderColor: 'rgba(255,165,0,1)',
@@ -154,6 +154,16 @@ function Intellectual() {
                 ],
                 borderColor: [
                     'rgba(64,224,208)',
+                ],
+                borderWidth: 1
+            },{
+                label: 'August',
+                data: [71],
+                backgroundColor: [
+                    'rgba(199, 21, 133, .2)',
+                ],
+                borderColor: [
+                    'rgba(199, 21, 133)',
                 ],
                 borderWidth: 1
             }]
