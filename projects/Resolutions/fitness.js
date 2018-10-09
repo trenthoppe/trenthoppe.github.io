@@ -9,13 +9,13 @@ function Fitness() {
             labels: ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8", "Week 9", "Week 10",
             "Week 11", "Week 12", "Week 13", "Week 14", "Week 15", "Week 16", "Week 17", "Week 18", "Week 19", "Week 20",
             "Week 21", "Week 22", "Week 23", "Week 24", "Week 25", "Week 26", "Week 27", "Week 28", "Week 29", "Week 30",
-            "Week 31", "Week 32", "Week 33", "Week 34"],
+            "Week 31", "Week 32", "Week 33", "Week 34", "Week 35", "Week 36", "Week 37", "Week 38", "Week 39", "Week 40"],
             datasets: [{
                 label: 'Body Weight',
                 data: [160, 159, 158, 158, 158, 157, 158.8, 156.5, 157, 158,
                   159.5, 159, 158.5, 158, 159, 161, 160, 160.2, 160, 159.5,
                   159, 160, 161, 162, 162.5, 162, 163, 164, 164.5, 162.5,
-                  161.5, 160.5, 160, 159.5],
+                  161.5, 160.5, 160, 159.5, 160, 161, 160.5, 160, 160.5, 159.5],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 borderWidth: 1
@@ -125,6 +125,16 @@ function Fitness() {
                     'rgba(199, 21, 133)',
                 ],
                 borderWidth: 1
+            },{
+                label: 'September',
+                data: [33],
+                backgroundColor: [
+                    'rgba(255, 69, 0, .2)',
+                ],
+                borderColor: [
+                    'rgba(255, 69, 0)',
+                ],
+                borderWidth: 1
             }]
         },
         options: {
@@ -149,38 +159,38 @@ function Fitness() {
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August'],
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'],
             datasets: [{
                 label: 'Hang Clean',
-                data: [145, 150, 152.5, 152.5, 150, 150, 150, 150],
+                data: [145, 150, 152.5, 152.5, 150, 150, 150, 150, 150],
                 backgroundColor: 'rgba(102, 102, 155, 0.2)',
                 borderColor: 'rgba(102,102,255,1)',
                 fill: false,
                 borderWidth: 3
             },{
                 label: 'Bench',
-                data: [180, 185, 190, 190, 185, 180, 185, 190],
+                data: [180, 185, 190, 190, 185, 180, 185, 190, 190],
                 backgroundColor: 'rgba(255,165,0, 0.2)',
                 borderColor: 'rgba(255,165,0,1)',
                 fill: false,
                 borderWidth: 3
             },{
                 label: 'Pull Up',
-                data: [195, 200, 200, 205, 200, 205, 215, 220],
+                data: [195, 200, 200, 205, 200, 205, 215, 220, 215],
                 backgroundColor:'rgba(0,0,255, 0.2)',
                 borderColor: 'rgba(0,0,255,1)',
                 fill: false,
                 borderWidth: 3
             },{
                 label: 'Squat',
-                data: [225, 235, 240, 240, 235, 235, 240, 245],
+                data: [225, 235, 240, 240, 235, 235, 240, 245, 240],
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255,99,132,1)',
                 fill: false,
                 borderWidth: 3
             },{
                 label: 'Deadlift',
-                data: [250, 265, 270, 270, 270, 265, 300, 310],
+                data: [250, 265, 270, 270, 270, 265, 300, 310, 310],
                 backgroundColor:'rgba(0,255,255, 0.2)',
                 borderColor: 'rgba(0,255,255,1)',
                 fill: false,

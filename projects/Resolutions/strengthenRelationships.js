@@ -75,13 +75,23 @@ function StrengthenRelationships() {
                 ],
                 borderWidth: 1
             },{
-                label: 'July',
+                label: 'August',
                 data: [97],
                 backgroundColor: [
                     'rgba(199, 21, 133, .2)',
                 ],
                 borderColor: [
                     'rgba(199, 21, 133)',
+                ],
+                borderWidth: 1
+            },{
+                label: 'September',
+                data: [97],
+                backgroundColor: [
+                    'rgba(255, 69, 0, .2)',
+                ],
+                borderColor: [
+                    'rgba(255, 69, 0)',
                 ],
                 borderWidth: 1
             }]
