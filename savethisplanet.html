@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<title>SaveThePlanet</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('./assets/img/Geog/turtle.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("./assets/img/Geog/plasticbag.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("./assets/img/Geog/trash.jpeg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PROBLEM</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> MAKE A CHANGE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> SOURCES</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">PROBLEM</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">CHANGE</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">SOURCES</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SAVE <span class="w3-hide-small">THIS</span> PLANET</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">THE PROBLEM</h3>
+  <p class="w3-center"><em>What is going wrong with our broken oceans?</em></p>
+  <p>Beaches that used to be beautiful and covered with fine, white sand only decades ago are now littered with waste - most commonly, plastic. It is estimated that about 18 tons of plastic lie on our beaches today; this does not even include what can be found
+    in our oceans. Flowing into our oceans, rivers bring with them close to 8 million tons of plastic material every year. Scientists and researchers have been warning us for years about the dangers of this level of plastic entering our oceans. It has a devastatingly
+    negative effect on the marine life and health of our oceans overall. The biggest of the problems that come with having plastics fill our oceans is the problem that you cannot see with the naked eye. Microplastics are causing extreme alarms in the toxicology and marine biology
+    worlds. These are pieces of plastic formed by the disintegration of plastic debris and are measured in fractions of a millimetre. Because they are so small, marine wildlife often consume them by mistake. Inside the bodies of these animals, they act as poisons.
+    They are not able to digest these microplastics naturally and this leads to the death of many marine animals. </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="./assets/img/Geog/seahorse.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>For the first time, the public is taking notice of these attrocities. The rise of the digital age has made these problems more visible. Social media is powerful and is shaping the way we look at the world. Heart breaking images captured by professional photographers
+      are going viral. While it may seem petty, these images tell a story and sharing them with the world is only going to push us forward. Take a stance and be an advocate for change in your communities. Facebook, Tweet, and Insta with the hashtag #SaveThePlanet!</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">The Numbers are Scary:</p>
+  <p class="w3-wide"><i class="fa fa-globe"></i>Beach Litter Worldwide that is Plastic</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:73%">73%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-ship"></i>Plastic Pollution Carried by Just 10 Rivers</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-life-saver"></i>Sea Turtles That Have Consumed Plastic</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">50%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">8+ million</span><br>
+    Pieces of Trash Entering Our Oceans Daily
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">1.1+ million</span><br>
+    Sea Birds and Animals Killed Annually by Plastic Pollution
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">1 million</span><br>
+    Plastic Bottles Bought Every Minute
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">2 million</span><br>
+    Plastic Bags Used Every Minute
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">MAKE A CHANGE</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">WHAT CAN YOU DO</h3>
+  <p class="w3-center"><em>Here are some ways you can save this planet!<br> Click on the images to find out how you can help</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <!-- Row 1 -->
+    <div class="w3-row-padding w3-center w3-padding-16">
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://www.greeneducationfoundation.org/nationalgreenweeksub/waste-reduction-tips/tips-to-use-less-plastic.html">
+            <img src="./assets/img/Geog/plastic.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Tips To Use Less Plastic</h4>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://www.nationalgeographic.com/environment/oceans/take-action/10-things-you-can-do-to-save-the-ocean/">
+            <img src="./assets/img/Geog/seal.png" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>10 Things You Can Do to Save the Ocean</h4>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://www.greenschoolsalliance.org/program/campaigns/stop-plastics">
+            <img src="./assets/img/Geog/greenschools.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Make Your School Green</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Row 1 -->
+    <div class="w3-row-padding w3-center w3-padding-16">
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://www.youtube.com/watch?v=vONBU7btYuo">
+            <img src="./assets/img/Geog/greenkids.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Go Green With Friends</h4>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://support.worldwildlife.org/site/Donation2?df_id=13352&13352.donation=form1">
+            <img src="./assets/img/Geog/worldwildlife.png" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Give To The World Wildlife Fund</h4>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third">
+        <div class="w3-card-2">
+          <a href="https://climatekids.nasa.gov/go-green/">
+            <img src="./assets/img/Geog/climatekid.jpg" style="width:100%">
+          </a>
+          <div class="w3-container">
+            <h4>Be a Green Kid!</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">SOURCES</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WORKS CITED</h3>
+  <p class="w3-center"><em>Check these articles out for even more information</em></p>
+
+  <div class="w3-center">
+    <div class="w3-center">
+      <div class="w3-large w3-margin-bottom">
+        <i class="w3-xlarge w3-margin-right"></i>Cookson, Clive. “The Problem with Plastic: Can Our Oceans Survive?” Financial Times, Financial Times, 24 Jan. 2018, www.ft.com/content/30b30b1e-004a-11e8-9650-9c0ad2d7c5b5.<br>
+        <i class="w3-xlarge w3-margin-right"></i>Eriksen, Marcus, et al. “Plastic Pollution in the World's Oceans: More than 5 Trillion Plastic Pieces Weighing over 250,000 Tons Afloat at Sea.” PLOS ONE, Public Library of Science.<br>
+        <i class="w3-xlarge w3-margin-right"></i>“10 Facts About Plastic Pollution You Absolutely Need to Know.” Global Citizen, www.globalcitizen.org/en/content/plastic-pollution-facts/.<br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
