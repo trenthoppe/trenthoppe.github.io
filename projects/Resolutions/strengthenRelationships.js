@@ -104,6 +104,16 @@ function StrengthenRelationships() {
                     'rgba(13, 152, 186)',
                 ],
                 borderWidth: 1
+            },{
+                label: 'November',
+                data: [97],
+                backgroundColor: [
+                    'rgba(192, 192, 192, .2)',
+                ],
+                borderColor: [
+                    'rgba(192, 192, 192)',
+                ],
+                borderWidth: 1
             }]
         },
         options: {
