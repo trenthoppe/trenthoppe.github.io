@@ -11,8 +11,8 @@ window.onload = function() {
 
   /* INTELLECTUAL */
   var intellectual = new Intellectual();
-  var duolingoCtx = document.getElementById("duolingoChart");
-  intellectual.initDuolingoChart(duolingoCtx);
+  //var duolingoCtx = document.getElementById("duolingoChart");
+  //intellectual.initDuolingoChart(duolingoCtx);
   var expCrownCtx = document.getElementById("expCrownChart");
   intellectual.initExpCrownChart(expCrownCtx);
   var italianPracticeCtx = document.getElementById("italianPracticeChart");

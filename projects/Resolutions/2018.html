@@ -5,15 +5,15 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/resolutions.css">
+<link rel="stylesheet" href="../.././assets/css/style.css">
+<link rel="stylesheet" href="../.././assets/css/resolutions.css">
 
 <head>
-  <script src="./projects/lib/Chart.bundle.js"></script>
-  <script src="./projects/Resolutions/src/2018/fitness.js"></script>
-  <script src="./projects/Resolutions/src/2018/intellectual.js"></script>
-  <script src="./projects/Resolutions/src/2018/strengthenRelationships.js"></script>
-  <script src="./projects/Resolutions/src/2018/resolutions.js"></script>
+  <script src="../lib/Chart.bundle.js"></script>
+  <script src="./src/2018/fitness.js"></script>
+  <script src="./src/2018/intellectual.js"></script>
+  <script src="./src/2018/strengthenRelationships.js"></script>
+  <script src="./src/2018/resolutions.js"></script>
 </head>
 
 <body>
@@ -60,7 +60,10 @@
     <h3 id="intellectual" class="w3-center">INTELLECTUAL</h3>
     <p class="w3-center">Goal: Become proficient in Italian (i.e. 100% on Duolingo; able to read Italian news)</p>
     <div class="w3-row w3-padding-24">
-      <div class="chart-container" style="position: relative; height:50%; width:100%">
+      <div class="w3-half chart-container" style="position: relative; height:50%; width:50%">
+        <canvas id="duolingoChart"></canvas>
+      </div>
+      <div class="w3-half chart-container" style="position: relative; height:50%; width:50%">
         <canvas id="expCrownChart"></canvas>
       </div>
     </div>
@@ -74,18 +77,6 @@
   <div class="w3-content w3-container w3-padding-24" id="fitness">
     <h3 id="deepenCulture" class="w3-center">DEEPEN CULTURE</h3>
     <p class="w3-center">Goal: Listen to a new album every week</p>
-    <div class="w3-row-padding w3-center w3-padding-16">
-
-      <div class="w3-container w3-card w3-center" style="width:50%;margin:auto;">
-          <a href="https://open.spotify.com/user/t-hoppnasty/playlist/3Apugv7hBZIhfIu40IaQY5?si=RD4Qad3UQRqLb1SDQ-KPBw">
-            <img src="./assets/img/Albums/Cover2018.jpg" style="width:100%">
-          </a>
-          <div class="w3-container">
-            <h4>2018 Album Compilation Playlist</h4>
-          </div>
-      </div>
-
-    </div>
     <p class="w3-wide"><i class="fa fa-music"></i>Albums</p>
     <div class="w3-light-grey">
       <div class="w3-container w3-padding-small w3-green w3-center" style="width:100%">52</div>
@@ -96,7 +87,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/2zbTrm2pIAErzFSopinkbN">
-            <img src="./assets/img/Albums/Cleopatra.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Cleopatra.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Cleopatra</h4>
@@ -106,7 +97,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/4fe1YmssM6Ugs6UyA7OdGg">
-            <img src="./assets/img/Albums/WhatIfNothing.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/WhatIfNothing.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>What If Nothing</h4>
@@ -116,7 +107,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/55LUvkPPMUgwQVmypS3Wex">
-            <img src="./assets/img/Albums/JustTheBeginning.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/JustTheBeginning.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Just The Beginning</h4>
@@ -129,7 +120,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/1Fexc96V24RL17Ko9VXUOM">
-            <img src="./assets/img/Albums/TwentyOnePilots.png" style="width:100%">
+            <img src="../.././assets/img/Albums/TwentyOnePilots.png" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Twenty One Pilots</h4>
@@ -139,7 +130,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/5U5rt98q8Jqx4lP3RdqYfO">
-            <img src="./assets/img/Albums/Badlands.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Badlands.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>BADLANDS</h4>
@@ -149,7 +140,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/17l7MIu0Jh0tdgK7or9ovw">
-            <img src="./assets/img/Albums/Dopamine.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Dopamine.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Dopamine</h4>
@@ -162,7 +153,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/0xWfhCMYmaiCXtLOuyPoLF">
-            <img src="./assets/img/Albums/TheHeadAndHeart.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/TheHeadAndHeart.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>The Head and Heart</h4>
@@ -172,7 +163,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/68ZGCwTDtJGbC3E3gL6d48">
-            <img src="./assets/img/Albums/LivingRoom.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/LivingRoom.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Living Room</h4>
@@ -182,7 +173,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/6qb9MDR0lfsN9a2pw77uJy">
-            <img src="./assets/img/Albums/HowToBeAHumanBeing.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/HowToBeAHumanBeing.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>How to Be a Human Being</h4>
@@ -195,7 +186,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/4VFG1DOuTeDMBjBLZT7hCK">
-            <img src="./assets/img/Albums/Malibu.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Malibu.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Malibu</h4>
@@ -205,7 +196,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/7Kmmw7Z5D2UD5MVwdm10sT">
-            <img src="./assets/img/Albums/Torches.jpeg" style="width:100%">
+            <img src="../.././assets/img/Albums/Torches.jpeg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Torches</h4>
@@ -215,7 +206,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/7j7cqgeWmYH9PbKe3S5oJj">
-            <img src="./assets/img/Albums/TheStoryOfUs.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/TheStoryOfUs.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>The Story of Us</h4>
@@ -228,7 +219,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/6NWYmlHxAME5KXtxrTlUxW">
-            <img src="./assets/img/Albums/TheLumineers.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/TheLumineers.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>The Lumineers</h4>
@@ -238,7 +229,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/2gccJPbfddWfxNdvsRxL8J">
-            <img src="./assets/img/Albums/ImNotDead.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/ImNotDead.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>I'm Not Dead</h4>
@@ -248,7 +239,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/6twKQ0EsUJHVlAr6XBylrj?si=gGZD3YuRTYud5JzjVq496A">
-            <img src="./assets/img/Albums/DeathOfABachelor.jpeg" style="width:100%">
+            <img src="../.././assets/img/Albums/DeathOfABachelor.jpeg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Death of a Bachelor</h4>
@@ -261,7 +252,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/6hpiZXzsZxlkTXY8zavu3N?si=wrEeV53lS-6cKwXzHh0cVQ">
-            <img src="./assets/img/Albums/TheClick.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/TheClick.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>The Click</h4>
@@ -271,7 +262,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/72qA6s4fjF8Y2VX1UDMfp2?si=Dol0Jt-rQViHb5CRxCLXnw">
-            <img src="./assets/img/Albums/Gemini.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Gemini.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>GEMINI</h4>
@@ -281,7 +272,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/3mNoFlD1wsoXfkljfFzExT?si=ZfCJwC-vSXqISUOUwqVkVQ">
-            <img src="./assets/img/Albums/TalkingIsHard.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/TalkingIsHard.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>TALKING IS HARD</h4>
@@ -294,7 +285,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/1uyf3l2d4XYwiEqAb7t7fX?si=vdrKPoGKQSCRGDr44meGoQ">
-            <img src="./assets/img/Albums/Doo-Wops&Hooligans.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Doo-Wops&Hooligans.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Doo-Wops & Hooligans</h4>
@@ -304,7 +295,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/726GB3GTBwPdsGr5XzOQbz?si=FToKKHYIQVGUhgiPTIj7_g">
-            <img src="./assets/img/Albums/OurOwnHouse.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/OurOwnHouse.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Our Own House</h4>
@@ -314,7 +305,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/1HaSvtbWDDrsF1kuRE7400?si=pE9YIQetTLuEcoGWoTEDkQ">
-            <img src="./assets/img/Albums/WhoKilledMattMaeson.png" style="width:100%">
+            <img src="../.././assets/img/Albums/WhoKilledMattMaeson.png" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Who Killed Matt Maeson</h4>
@@ -327,7 +318,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/6kf46HbnYCZzP6rjvQHYzg?si=JKORI9uMRJuWfYcA7o72Mg">
-            <img src="./assets/img/Albums/AmericanTeen.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/AmericanTeen.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>American Teen</h4>
@@ -337,7 +328,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/7GiLJfRPHARQrRJf01P2Tt?si=aY_Z6TB-RVysyyfTMu7r4w">
-            <img src="./assets/img/Albums/SighNoMore.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/SighNoMore.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Sigh No More</h4>
@@ -347,7 +338,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/7fRrTyKvE4Skh93v97gtcU?si=8EbZy56rQbm327rhuq7_CA">
-            <img src="./assets/img/Albums/dontsmileatme.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/dontsmileatme.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>dont smile at me</h4>
@@ -360,7 +351,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/5dj2UjtSxuKGlb17Bzu1mL?si=n1KuVLdFSDS1d3eUeKJdYA">
-            <img src="./assets/img/Albums/LoveIsDead.jpeg" style="width:100%">
+            <img src="../.././assets/img/Albums/LoveIsDead.jpeg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Love Is Dead</h4>
@@ -370,7 +361,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/6uD3oJCWT1gtlSCg5lDiNF?si=bH7DJxm_ROi3cMCZexhlJg">
-            <img src="./assets/img/Albums/MyHeadIsAnAnimal.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/MyHeadIsAnAnimal.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>My Head Is An Animal</h4>
@@ -380,7 +371,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/6TWqxofcKQaZ9gHI49G36P?si=bwNQIhLwQiqHa7PcyBRYbA">
-            <img src="./assets/img/Albums/SoundAndColor.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/SoundAndColor.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Sound & Color</h4>
@@ -393,7 +384,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/5m0Qi0Nb6i8sQSqUu6HL69?si=2EOXVuipQ52sjNBBh-PkUQ">
-            <img src="./assets/img/Albums/90skids.jpeg" style="width:100%">
+            <img src="../.././assets/img/Albums/90skids.jpeg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>'90s Kids</h4>
@@ -403,7 +394,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/5D20ZzsNB377xbshIFP9Nb?si=T2CUjsJqQzemLszmc0daFA">
-            <img src="./assets/img/Albums/Sadnecessary.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Sadnecessary.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Sadnecessary</h4>
@@ -413,7 +404,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/0XnqQzdSFAml08XZoRt1St?si=sIIw4sD0Re2I5VbXCzirLA">
-            <img src="./assets/img/Albums/SaturationII.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/SaturationII.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Saturation II</h4>
@@ -421,12 +412,12 @@
         </div>
       </div>
     </div>
-    <!-- Row 12 -->
+    <!-- Row 11 -->
     <div class="w3-row-padding w3-center w3-padding-16">
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/0vb1g018puu47StlIi9wxC?si=-jQC8R9pSTK7qrgxqEk3NA">
-            <img src="./assets/img/Albums/Landmark.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Landmark.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Landmark</h4>
@@ -436,7 +427,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/3Mj4A4nNJzIdxOyS4yzOhj?si=1w77V7WxTvWOfIKZAw6LmA">
-            <img src="./assets/img/Albums/iridescence.jpeg" style="width:100%">
+            <img src="../.././assets/img/Albums/iridescence.jpeg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>iridescence</h4>
@@ -446,7 +437,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/1FZKIm3JVDCxTchXDo5jOV?si=gyU9pcJTTru90xCaF99APw">
-            <img src="./assets/img/Albums/HarryStyles.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/HarryStyles.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Harry Styles</h4>
@@ -454,12 +445,12 @@
         </div>
       </div>
     </div>
-    <!-- Row 13 -->
+    <!-- Row 12 -->
     <div class="w3-row-padding w3-center w3-padding-16">
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/621cXqrTSSJi1WqDMSLmbL?si=cLqHT2J8TkOvWOjC1_TmgQ">
-            <img src="./assets/img/Albums/Trench.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Trench.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Trench</h4>
@@ -469,7 +460,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/2SmrUzUMMOYQqoPuOhlhjw?si=qNe3yKFYTT-eaxOVytyoXA">
-            <img src="./assets/img/Albums/Cardinal.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Cardinal.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Cardinal</h4>
@@ -479,7 +470,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/4xEPfpJt7VpjRCCkFy5YTy?si=AtQAmnLUTFyjYoiZkQW2qw">
-            <img src="./assets/img/Albums/Morningsiders.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Morningsiders.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Morningsiders</h4>
@@ -487,12 +478,12 @@
         </div>
       </div>
     </div>
-    <!-- Row 14 -->
+    <!-- Row 13 -->
     <div class="w3-row-padding w3-center w3-padding-16">
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/4risXrAj8hS6AOveDX1f77?si=XV1f3HV7Q7GIz8iir49phw">
-            <img src="./assets/img/Albums/BeautifulChaos.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/BeautifulChaos.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Beautiful Chaos</h4>
@@ -502,7 +493,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/2ZDjruwuzzzT8JMJRXvLtl?si=lNfspQjjRUqTzwMWDiz7GA">
-            <img src="./assets/img/Albums/LonesomeDreams.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/LonesomeDreams.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Lonesome Dreams</h4>
@@ -512,7 +503,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/3K0GgFkEMJiigqVTPJvqSw?si=KrzRcHhhQfKftQsESkMudw">
-            <img src="./assets/img/Albums/RiseOfHoboJohnson.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/RiseOfHoboJohnson.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>The Rise of Hobo Johnson</h4>
@@ -520,12 +511,12 @@
         </div>
       </div>
     </div>
-    <!-- Row 15 -->
+    <!-- Row 14 -->
     <div class="w3-row-padding w3-center w3-padding-16">
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/3HJiLDJgWA9Z0MvCxlzHYQ?si=VZem40vYScmmg_GIFUeNyg">
-            <img src="./assets/img/Albums/WhatDoYouThinkAboutTheCar.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/WhatDoYouThinkAboutTheCar.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>What Do You Think About the Car?</h4>
@@ -535,7 +526,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/10HKbC9lKDHGQvndGck6XJ?si=QTWsh2hzTSGcGdM2DIrJwQ">
-            <img src="./assets/img/Albums/GoneNow.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/GoneNow.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Gone Now</h4>
@@ -545,7 +536,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/2YXl7mV4d30fEbwpVQ7YBQ?si=Vqp9sUMnRsKtqvgZOq7Peg">
-            <img src="./assets/img/Albums/DisappearHere.jpeg" style="width:100%">
+            <img src="../.././assets/img/Albums/DisappearHere.jpeg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Disappear Here</h4>
@@ -553,12 +544,12 @@
         </div>
       </div>
     </div>
-    <!-- Row 16 -->
+    <!-- Row 15 -->
     <div class="w3-row-padding w3-center w3-padding-16">
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/4lGNpgFI67TUq5BMfnPe3Z?si=Uuvq49WvQ3eqsYRGT06j4Q">
-            <img src="./assets/img/Albums/Seven+Mary.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Seven+Mary.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Seven + Mary</h4>
@@ -568,7 +559,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/6tGEWfRhonWuuQikgOnYhN?si=CNq-7ZjqQ1-OeTHsDLDQ-Q">
-            <img src="./assets/img/Albums/Bambi.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Bambi.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Bambi</h4>
@@ -578,7 +569,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/7vXiklrUeffx5o2F8VYwm3?si=U2tlS_YlSaKSgn9V11lw8Q">
-            <img src="./assets/img/Albums/HowToFriendLoveFreefall.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/HowToFriendLoveFreefall.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>How to: Friend, Love, Freefall</h4>
@@ -591,7 +582,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/42KDvyFS8ZBOxan2uKZuW5?si=1VqQYXgTTVS0lg6oUUsrRg">
-            <img src="./assets/img/Albums/NotionEP.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/NotionEP.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Notion - EP</h4>
@@ -601,7 +592,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/0C2grVR8DnJnL8rg7OP6Zm?si=C0svJBIdS6u0Lj_gWi29CA">
-            <img src="./assets/img/Albums/Telefone.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Telefone.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Telefone</h4>
@@ -611,7 +602,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/71o4Eq4gL2QGUb1FOey4G7?si=sKkYO_cISmW-0oqjkvZdWQ">
-            <img src="./assets/img/Albums/CherryTree.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/CherryTree.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Cherry Tree</h4>
@@ -624,7 +615,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/42KDvyFS8ZBOxan2uKZuW5?si=1VqQYXgTTVS0lg6oUUsrRg">
-            <img src="./assets/img/Albums/MtJoy.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/MtJoy.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Mt. Joy</h4>
@@ -634,7 +625,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/0C2grVR8DnJnL8rg7OP6Zm?si=C0svJBIdS6u0Lj_gWi29CA">
-            <img src="./assets/img/Albums/SacredHeartsClub.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/SacredHeartsClub.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Sacred Hearts Club</h4>
@@ -644,7 +635,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/71o4Eq4gL2QGUb1FOey4G7?si=sKkYO_cISmW-0oqjkvZdWQ">
-            <img src="./assets/img/Albums/AnAwesomeWave.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/AnAwesomeWave.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>An Awesome Wave</h4>
@@ -657,7 +648,7 @@
       <div class="w3-third">
         <div class="w3-card-2">
           <a href="https://open.spotify.com/album/42KDvyFS8ZBOxan2uKZuW5?si=1VqQYXgTTVS0lg6oUUsrRg">
-            <img src="./assets/img/Albums/Caamp.jpg" style="width:100%">
+            <img src="../.././assets/img/Albums/Caamp.jpg" style="width:100%">
           </a>
           <div class="w3-container">
             <h4>Caamp</h4>

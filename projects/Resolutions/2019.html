@@ -1,0 +1,76 @@
+<html>
+<title>New Years Resolutions</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../.././assets/css/style.css">
+<link rel="stylesheet" href="../.././assets/css/resolutions.css">
+
+<head>
+  <script src="../lib/Chart.bundle.js"></script>
+  <script src="./src/timeLabels.js"></script>
+
+  <script src="./src/2019/stretch.js"></script>
+  <script src="./src/2019/resolutions.js"></script>
+</head>
+
+<body>
+  <h2 class="w3-center">New Years Resolutions 2019</h2>
+  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">
+        <a href="#fitness">Fitness</a>
+      </span>
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">
+        <a href="#intellectual">Intellectual</a>
+      </span>    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">
+        <a href="#deepenCulture">Deepen Culture</a>
+      </span>    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">
+        <a href="#strengthenRelationships">Strengthen Relationships</a>
+      </span>    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-24" id="fitness">
+    <h3 id="fitness" class="w3-center">FITNESS</h3>
+    <p class="w3-center">Goal: Stretch for 15 minutes every day</p>
+    <div class="w3-content w3-container">
+      <div class="chart-container" style="position: relative; height:50%; width:100%">
+        <canvas id="hamstringChart"></canvas>
+      </div>
+      <div class="w3-half chart-container" style="position: relative; height:50%; width:100%">
+        <canvas id="upperBodyChart"></canvas>
+      </div>
+      <div class="w3-half chart-container" style="position: relative; height:50%; width:100%">
+        <canvas id="lateralSideAndLowerBackChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-24" id="fitness">
+    <h3 id="intellectual" class="w3-center">INTELLECTUAL</h3>
+    <p class="w3-center">Goal: Become proficient in Italian (i.e. 100% on Duolingo; able to read Italian news)</p>
+    <div class="w3-row w3-padding-24">
+      <div class="w3-half chart-container" style="position: relative; height:50%; width:50%">
+        <canvas id="duolingoChart"></canvas>
+      </div>
+      <div class="w3-half chart-container" style="position: relative; height:50%; width:50%">
+        <canvas id="expCrownChart"></canvas>
+      </div>
+    </div>
+    <div class="w3-content w3-container">
+      <div class="chart-container w3-padding-16" style="position: relative; height:50%; width:100%">
+        <canvas id="italianPracticeChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
